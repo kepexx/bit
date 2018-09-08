@@ -1,6 +1,6 @@
 Bit
 ===
-Bit is an [esoteric programming language](https://esolangs.com/Esoteric_Programming_Language) created by me, read the specification for details, and feel free to write some programs with it using the interpreter in this repository
+Bit is an [esoteric programming language](https://esolangs.org/wiki/Esoteric_programming_language) created by me, read the specification for details, and feel free to write some programs with it using the interpreter in this repository
 
 Interpreter note
 ================
