@@ -5,7 +5,7 @@ Bit is an [esoteric programming language](https://esolangs.com/Esoteric_Programm
 Bit Specification
 =================
 First off, there are two built in stacks: the *bitstack* and the *stack*.
-Second, throughout this challenge, the letter 'b' will be used to indicate a value in binary, `[x]` will indicate that x is an optional argument. An *overriding operation* is one that sets a variable, overriding it if it already exists. (most operations are overriding unless explicitly stated, for any questions feel free to open an issue)
+Second, throughout this specification, the letter 'b' will be used to indicate a value in binary, and `[x]` will indicate that x is an optional argument. An *overriding operation* is one that sets a variable, overriding it if it already exists. (most operations are overriding unless explicitly stated, for any questions feel free to open an issue)
 
 
 - `BIT 0` - Pushes a 0 to the top of the bitstack
