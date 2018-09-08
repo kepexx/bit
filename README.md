@@ -1,10 +1,6 @@
 Bit
 ===
-Bit is an [esoteric programming language](https://esolangs.org/wiki/Esoteric_programming_language) created by me, read the specification for details, and feel free to write some programs with it using the interpreter in this repository
-
-Interpreter note
-================
-As you can see, this repo is empty, im currently transferring everything
+Bit is an [esoteric programming language](https://esolangs.org/wiki/Esoteric_programming_language) created by me, read the specification for details, and feel free to write some programs with it using the interpreter in this repository (`java -jar bit.jar filename.bit`)
 
 Bit Specification
 =================
@@ -24,11 +20,6 @@ Second, throughout this specification, the letter 'b' will be used to indicate a
 var` instead of setting it)
 - `SUBTRACT [a] [b] [var]` - Same as above 3, but with subtraction.
 - `MULTIPLY [a] [b] [var]` - Same as above 3, but with multiplication.
-- `DIVIDE` - Pops a and b, pushes a/b
-- `DIVIDE a` - Pops b, pushes b/a
-- `DIVIDE a b` - Pushes a/b
-- `DIVIDE a b var` - Stores a/b in `var`. (If `var` is an array, push a/b to the array instead of setting)
-- `LOG` - Pops a and b, pushes log a of b (natural logarithm)
 - `LOG a` - Pops b, pushes log a of b
 - `LOG a b` - Pushes log a of b
 - `LOG a b var` - Stores log a of b in `var` (If `var` us an array, push instead of setting)
