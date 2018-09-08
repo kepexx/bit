@@ -1,9 +1,11 @@
-I recently made a language called `bit`, and your challenge is to create a valid program that takes 2 numbers from STDIN, and outputs the sum of them.
+Bit
+===
+Bit is an [esoteric programming language](https://esolangs.com/Esoteric_Programming_Language) created by me, read the specification for details, and feel free to write some programs with it using the interpreter in this repository
 
 Bit Specification
 =================
-First off, the only data structure is a stack, and there are two stacks: the *bitstack* and the *stack*.
-Second, throughout this challenge, the letter 'b' will be used to indicate a value in binary, `[x]` will indicate that x is an optional argument. An *overriding operation* is one that sets a variable, overriding it if it already exists.
+First off, there are two built in stacks: the *bitstack* and the *stack*.
+Second, throughout this challenge, the letter 'b' will be used to indicate a value in binary, `[x]` will indicate that x is an optional argument. An *overriding operation* is one that sets a variable, overriding it if it already exists. (most operations are overriding unless explicitly stated, for any questions feel free to open an issue)
 
 
 - `BIT 0` - Pushes a 0 to the top of the bitstack
