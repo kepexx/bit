@@ -2,6 +2,10 @@ Bit
 ===
 Bit is an [esoteric programming language](https://esolangs.com/Esoteric_Programming_Language) created by me, read the specification for details, and feel free to write some programs with it using the interpreter in this repository
 
+Interpreter note
+================
+As you can see, this repo is empty, im currently transferring everything
+
 Bit Specification
 =================
 First off, there are two built in stacks: the *bitstack* and the *stack*.
