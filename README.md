@@ -52,6 +52,7 @@ Stringification is the process of turning an array (created by `BYTES` or `STORE
 
 ## Invalid values
 For example, `BYTES 0` or dividing by 0, the interpreter will stop with an error (a bug makes it so it doesn't stop on `BYTES 0`, and I currently can't fix it)
+
 Examples
 ========
 Program that prints 'A':
