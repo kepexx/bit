@@ -35,7 +35,7 @@ var` instead of setting it)
 - `DUP` - Push the contents of the stack to the stack itself
 - `DUP var` - Push the contents of `var` to `var`
 - `FLIP [var]` - Flip the contents of `var` or the stack
-- `IMPORT filename` - Runs the code inside `filename` as if the `IMPORT` statement were replaced by the code inside `filename`
+- `IMPORT var` - Runs the code inside the file  with path `var` (stringified) as if the `IMPORT` statement were replaced by the code inside `filename`
 - `IN [prompt] [var]` - If `prompt` is not specified, prompt = "" (empty), then stringify prompt (see below) and print it with no newline, then read from STDIN. Take each character's ASCII value and push it to the stack *as a single element* OR override `var` with that list of values. Example: `IN somevar othervar`, othervar = [65, 65, 67] if user typed ABC
 - `INTO` - Pops a value from the stack, and sets the stack to that value if it is an array, otherwise throw an error.
 - `OUTOF` - Set stack to a new stack containing the old stack, `stack = [stack]`
