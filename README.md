@@ -50,6 +50,8 @@ var` instead of setting it)
 ## Stringification
 Stringification is the process of turning an array (created by `BYTES` or `STORE`) into a string, to do this, iterate over the array, and convert each ASCII value to a character, concatenate all the characters and that is the result of the stringification
 
+## Invalid values
+For example, `BYTES 0` or dividing by 0, the interpreter will stop with an error (a bug makes it so it doesn't stop on `BYTES 0`, and I currently can't fix it)
 Examples
 ========
 Program that prints 'A':
