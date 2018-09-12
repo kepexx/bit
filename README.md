@@ -45,7 +45,7 @@ var` instead of setting it)
 - `PUSH var` - Pop a value from the stack, and override `var` with it
 - `SHIFT` - Rotates the stack by `amount` or 1 (stack: [1, 2, 3] -> [3, 1, 2])
 - `SHIFT var` - Same as above but with var
-- `STORE` - Behaves exactly like `BYTES`, but has a fixed amount of elements, so no elements can be pushed to it, and if any are popped/missing, they are replaced with zeroes (This even works with `IN`, if the user doesn't type enough characters, zeroes will be inserted at the start of the stack)
+- `STORE` - Behaves exactly like `BYTES`, but has a fixed amount of elements, so elements pushed to it override others ([0, 1,2,3] PUSH 4 = [1,2,3,4] removing 0), and if any are popped/missing, they are replaced with zeroes (This even works with `IN`, if the user doesn't type enough characters, zeroes will be inserted at the start of the stack)
 
 ## Stringification
 Stringification is the process of turning an array (created by `BYTES` or `STORE`) into a string, to do this, iterate over the array, and convert each ASCII value to a character, concatenate all the characters and that is the result of the stringification
